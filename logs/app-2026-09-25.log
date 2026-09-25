@@ -1,0 +1,1 @@
+[2026-09-25 17:24:16] add_task failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`task_manager`.`tasks`, CONSTRAINT `fk_tasks_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)

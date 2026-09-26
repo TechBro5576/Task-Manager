@@ -10,13 +10,13 @@ if (!defined('TASKS_GO')) {
 
 // App
 define('APP_NAME', 'Tasks Go');
-define('APP_URL', 'http://localhost/task-manager');
+define('APP_URL', 'task-manager1156.gt.tc');
 
 // Database
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'task_manager');   // ← UPDATED
-define('DB_USER', 'root');
-define('DB_PASS', '');               // XAMPP default root password is empty
+define('DB_HOST', 'sql103.infinityfree.com');   // e.g. sql123.infinityfree.com
+define('DB_NAME', 'if0_43011885_taskmanager'); // InfinityFree auto-prefixes this
+define('DB_USER', 'if0_43011885');              // same as the prefix
+define('DB_PASS', 'SamuelMolo1408');    // the password you set
 define('DB_CHARSET', 'utf8mb4');
 
 // Sessions

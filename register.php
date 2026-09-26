@@ -11,7 +11,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once __DIR__ . '/config/db.php';
-require_once __DIR__ . '/includes/functions.php';
+require_once __DIR__ . '/lib/functions.php';
 
 // Already logged in? Go to dashboard
 if (isset($_SESSION['user_id'])) {
